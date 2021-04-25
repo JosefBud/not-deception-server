@@ -1,0 +1,19 @@
+{
+  "name": "not-deception-server",
+  "version": "1.0.0",
+  "description": "Websocket server for the game that's totally not Deception",
+  "main": "server.js",
+  "repository": "https://github.com/JosefBud/not-deception-server.git",
+  "author": "Josef Budniakiewicz <josefbud@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "pm2": "^4.5.6",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
